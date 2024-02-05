@@ -61,6 +61,10 @@
                     </h1>
                     <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsam?</p>
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy now</a>
+                    <!-- open sidebar / offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                        Explore my other books
+                    </a>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
@@ -345,6 +349,17 @@
                     <button class="btn btn-primary">Subscribe</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt fugit tempora ratione corrupti reprehenderit eligendi officia inventore asperiores sit, vitae quisquam dolorem amet quasi.</p>
         </div>
     </div>
 
